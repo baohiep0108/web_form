@@ -1,0 +1,36 @@
+.container{position: relative;}
+.top-right{position: absolute; top :0px; right: 0px; border-bottom-left-radius: 30px;}
+.company-info{bottom: 30px;left: 15px;}
+
+ /* .hmenu{margin: 0px; padding: 0px; border-radius: 5px; box-shadow: 0 0 5px orangered; list-style: none; background-color: orangered; height: 40px;} */
+/* .hmenu>li>a{ display: block ; line-height: 40px; text-decoration: none; font-variant:  small-caps; padding-left: 25px; color: yellowgreen;}
+.hmenu>li>a:hover{ color: yellow; font-weight: bolder;}
+.hmenu>li{float:left; margin: 0 5px;} */
+
+/* css menu */
+.hmenu{margin: 0px; padding: 0px;border-radius: 5px ;box-shadow: 0 0 5px rgb(148, 218, 20); list-style: none; background-color: rgb(148, 218, 20); height: 40px;}
+ul.hmenu>li>a{display: block; line-height: 30px; text-decoration: none; font-variant: small-caps; padding-left: 25PX; color: white;}
+Ul.hmenu>li>a:hover{color: yellow; font-weight: bolder;}
+ul.hmenu>li{float: left;margin: 0 5px; position: relative;}
+ul.hmenu>li:hover>.sub-menu{display: block;}
+.sub-menu{margin: 0px; padding: 0px; border-radius: 5px; box-shadow: 0 0 5px rgb(148, 218, 20); list-style:none;display: none;width: 150px; position: absolute; z-index: 1;}
+.sub-menu>li>a{display: block; line-height: 30px; border-bottom: 1px dotted rgb(148, 218, 20) ; text-decoration: none; font-variant: small-caps; padding-left: 25px; background: url(b1.png) rgb(148, 218, 20) no-repeat left center; color: white;}
+.sub-menu>li>a:hover{background: url(b2.png) yellow  no-repeat left center; color: white; font-weight: bolder;}
+
+
+div.col-25{width: 25%; float: left;}
+div.prod{border: radius 10px;box-shadow: 0 0 5px gray ; margin: 5px ; padding: 5px;text-align: center;position: relative;}
+div.prod img{width: 20%; height: 150px;padding: 5px; margin: 5px; border-radius: 10px; background-color: yellow; box-shadow: inset 0px 0px 5px blue; float: left; text-align: center; position: relative;}
+.prod img:hover{box-shadow: inset 0 0 20px red; background-color: aqua;}
+div.prod>.name{font-variant: small-caps;color: orangered;}
+div.prod>.image{max-width: 98%; height: 150px; margin-bottom: 10px ;}
+div.prod>.price{ position:absolute; left: 5px; bottom: 5px; font-family: impact; font-size: 25px ; color: orange;}
+div.prod>.icons img{position: absolute;right: 5px; bottom: 5px ; width: 25px;}
+div.prod>.new-icons img{position:absolute; top: 5px; right: 5px; width: 35px; }
+
+
+/* menu ban hang ben trai */
+ul.vmenu{padding: 0px;margin: 5px;list-style: none; border-radius: 3px;box-shadow: 0 0 2px gray;}
+ul.vmenu a{background: url(b1.png)no-repeat 10px center; display: block; border-bottom: 1px dotted orangered; color: rgb(148, 218, 20); font-variant: small-caps; font-size: larger; text-decoration: none; padding: 8px 5px 8px 30px;}
+ul.vmenu a:hover{background: url(b1.png) no-repeat 10px center; border-bottom: 1px dotted white; background-color: rgb(148, 218, 20); color: white; font-weight: bold;}
+
